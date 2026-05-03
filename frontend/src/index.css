@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --header-h: 80px;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    @apply bg-white text-ink-900 antialiased;
+    font-feature-settings: 'cv11', 'ss01', 'ss03';
+  }
+
+  html[dir='rtl'] body { font-feature-settings: normal; }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight;
+  }
+
+  html[dir='rtl'] h1,
+  html[dir='rtl'] h2,
+  html[dir='rtl'] h3,
+  html[dir='rtl'] h4,
+  html[dir='rtl'] h5,
+  html[dir='rtl'] h6 {
+    font-family: 'Cairo', system-ui, sans-serif;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
+  .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-8xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-5 py-3 font-semibold transition;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary-500 text-white hover:bg-primary-600 active:bg-primary-700 shadow-lg shadow-primary-500/30;
+  }
+
+  .btn-outline {
+    @apply btn border-2 border-ink-200 text-ink-900 hover:border-primary-500 hover:text-primary-500;
+  }
+
+  .btn-ghost {
+    @apply btn text-ink-700 hover:bg-ink-100;
+  }
+
+  .btn-white {
+    @apply btn bg-white text-ink-900 hover:bg-ink-100 border-2 border-white/30;
+  }
+
+  .section { @apply py-16 md:py-24; }
+
+  .section-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-ink-900;
+  }
+
+  .section-subtitle {
+    @apply mt-4 text-base md:text-lg text-ink-500 max-w-3xl;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl border border-ink-200 p-6 md:p-8 transition;
+  }
+
+  .card-hover {
+    @apply card hover:border-primary-500 hover:shadow-xl hover:-translate-y-1;
+  }
+
+  /* Hero overlay used on Home, About, Contact */
+  .hero-overlay {
+    @apply absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70;
+  }
+
+  /* Brand badge (like the "GF CARE" pill on the original) */
+  .brand-badge {
+    @apply inline-block rounded-full bg-primary-500 px-5 py-1.5 text-xs font-bold uppercase tracking-widest text-white;
+  }
+}
+
+@layer utilities {
+  .ms-auto-flip { margin-inline-start: auto; }
+  .me-auto-flip { margin-inline-end: auto; }
+  .text-start-flip { text-align: start; }
+  .text-end-flip { text-align: end; }
+}

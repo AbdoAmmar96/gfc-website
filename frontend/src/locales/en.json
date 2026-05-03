@@ -1,0 +1,214 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Our Products",
+    "services": "Services",
+    "solutions": "Solutions",
+    "projects": "Projects",
+    "partners": "Partners",
+    "blog": "Blog",
+    "contact": "Contact Us"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "getStarted": "Get started",
+    "contactUs": "Contact us",
+    "talkToEngineer": "Talk to an engineer",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "tryAgain": "Try again",
+    "notFound": "Page not found",
+    "backHome": "Back to home"
+  },
+  "home": {
+    "heroTitle": "Advanced solutions for network infrastructure",
+    "heroSubtitle": "Reliable cabling and connectivity for businesses, contractors, and system integrators.",
+    "exploreProducts": "Explore products",
+    "aboutPreviewTitle": "Your trusted partner for excellence in networks",
+    "aboutPreviewBody": "Golden Future Care supplies premium network cabling sourced from leading global manufacturers. We serve enterprises, contractors, and integrators across the Kingdom of Saudi Arabia with an unwavering commitment to quality and on-time delivery.",
+    "aboutPreviewLink": "Learn more about us",
+    "features": {
+      "specializedService": {
+        "title": "Specialized service",
+        "body": "Engineering consultation and dedicated after-sales support."
+      },
+      "fastDelivery": {
+        "title": "Fast delivery",
+        "body": "Efficient logistics that protect project timelines."
+      },
+      "globalStandards": {
+        "title": "Global standards",
+        "body": "Certified products that meet international specifications."
+      }
+    },
+    "productsTitle": "Explore our product categories",
+    "productsSubtitle": "A complete range of network solutions to meet every requirement.",
+    "viewAllProducts": "View all products",
+    "stats": {
+      "support": "Support",
+      "satisfaction": "Satisfaction",
+      "clients": "Clients",
+      "projects": "Projects"
+    },
+    "suppliersBadge": "Suppliers",
+    "suppliersTitle": "Trusted suppliers ensuring quality, efficiency, and innovation",
+    "suppliersSubtitle": "Our supplier network gives you industry-leading products tailored to your project's specifications, regardless of business type.",
+    "ctaTitle": "Need an advanced network solution?",
+    "ctaBody": "Reach out for a free consultation and competitive pricing.",
+    "ctaWhatsapp": "WhatsApp",
+    "ctaContact": "Contact us now",
+    "whyUsTitle": "Why choose us",
+    "whyUsSubtitle": "",
+    "whyUs": {
+      "experience": {
+        "title": "",
+        "body": ""
+      },
+      "vendors": {
+        "title": "",
+        "body": ""
+      },
+      "support": {
+        "title": "",
+        "body": ""
+      },
+      "regional": {
+        "title": "",
+        "body": ""
+      }
+    },
+    "partnersTitle": "Trusted by leading vendors",
+    "projectsTitle": "Selected projects",
+    "projectsSubtitle": "A snapshot of recent work."
+  },
+  "about": {
+    "title": "About Us",
+    "heroTitle": "About GF Care",
+    "story": {
+      "badge": "Our Story",
+      "projectsLabel": "Projects delivered",
+      "body": "Golden Future Care delivers an integrated portfolio of certified network cabling and connectivity components to enterprises across the Kingdom of Saudi Arabia. Through long-term partnerships with leading global manufacturers, we equip contractors, system integrators, and end-clients with the right product for every scenario — from small office installs to large infrastructure rollouts."
+    },
+    "vision": {
+      "badge": "Our Vision",
+      "body": "To be the most reliable partner for network cabling solutions across the local and regional markets."
+    },
+    "values": {
+      "badge": "Our Values",
+      "title": "Core values",
+      "subtitle": "What drives us forward",
+      "items": {
+        "globalStandards": {
+          "title": "Global standards",
+          "body": "Products carrying recognized international certifications for the highest reliability and performance."
+        },
+        "fastDelivery": {
+          "title": "Fast delivery & support",
+          "body": "Efficient supply chain and immediate technical support from a team that understands site needs."
+        },
+        "allProjectSizes": {
+          "title": "All project sizes",
+          "body": "Flexible expertise covering residential and office installs through to large-scale infrastructure rollouts."
+        },
+        "competitivePricing": {
+          "title": "Competitive pricing",
+          "body": "Thoughtful pricing structure that puts real value first while maintaining quality standards."
+        }
+      }
+    },
+    "missionTitle": "Our Mission",
+    "missionBody": "",
+    "visionTitle": "Our Vision",
+    "visionBody": "",
+    "teamTitle": "Leadership team",
+    "stats": {
+      "uptime": "Network uptime",
+      "support": "Support coverage",
+      "projects": "Projects delivered",
+      "years": "Years of experience"
+    }
+  },
+  "services": {
+    "title": "Our Products",
+    "subtitle": "Comprehensive network infrastructure products for enterprises and contractors.",
+    "breadcrumb": "Products",
+    "keyFeatures": "Key features",
+    "showing": "Showing {{count}} products",
+    "filters": {
+      "all": "All products",
+      "coppercat6": "Copper Cat6",
+      "coppercat6a": "Copper Cat6A",
+      "fiberoptic": "Fiber Optic",
+      "accessories": "Accessories"
+    },
+    "cta": {
+      "title": "Need a custom solution?",
+      "body": "Our technical team is ready to provide tailored solutions for your project and handle bulk orders on competitive terms.",
+      "button": "Talk to sales"
+    }
+  },
+  "solutions": {
+    "title": "Industry solutions",
+    "subtitle": "Solutions tailored to specific industries.",
+    "keyBenefits": "Key benefits"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Selected case studies.",
+    "client": "Client",
+    "industry": "Industry",
+    "completedAt": "Completed",
+    "challenge": "The challenge",
+    "solution": "Our solution",
+    "results": "Key results"
+  },
+  "partners": {
+    "title": "Our partners",
+    "subtitle": "Authorized partnerships with global vendors."
+  },
+  "blog": {
+    "title": "Blog & insights",
+    "subtitle": "Articles and announcements.",
+    "readPost": "Read post",
+    "noResults": "No posts yet."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Tell us about your project — we typically reply within one business day.",
+    "breadcrumb": "Contact us",
+    "defaults": {
+      "address": "Riyadh, KSA"
+    },
+    "form": {
+      "heading": "Send us a message",
+      "intro": "Reach out anytime to learn more about our products or to request a custom quote for your project.",
+      "name": "Full name",
+      "email": "Email address",
+      "phone": "Phone",
+      "company": "Company",
+      "subject": "Subject",
+      "message": "Your message",
+      "submit": "Send message",
+      "submitting": "Sending...",
+      "success": "Thanks for reaching out — we will get back to you shortly.",
+      "error": "Could not send. Please try again."
+    },
+    "info": {
+      "phone": "Phone number",
+      "email": "Email address",
+      "address": "Office location",
+      "hours": "Working hours"
+    }
+  },
+  "footer": {
+    "rights": "© 2026 GF Care. All rights reserved.",
+    "tagline": "Advanced solutions for network infrastructure",
+    "quickLinks": "Quick links",
+    "productCategories": "Product categories",
+    "contactInfo": "Contact information",
+    "followUs": "Follow us"
+  }
+}
