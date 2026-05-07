@@ -2,7 +2,7 @@
 
 > Bilingual (Arabic/English RTL+LTR) corporate website for a Saudi network cabling supplier. Built as a full-stack project with Laravel + Filament admin panel + React/Vite frontend.
 
-🌐 **Live demo:** https://YOUR_USERNAME.github.io/gfc-website/
+🌐 **Live demo:** https://gfc-it.com/
 
 > *(The live demo is the React frontend running with mock data. The full Laravel backend powers the same UI when self-hosted.)*
 
